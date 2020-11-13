@@ -1,0 +1,122 @@
+body{
+    margin: 0px ;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bannerimg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/banner\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    width: 100%;
+    height: 35em;
+   padding-top: 10px;
+    
+   
+    
+    
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.705);
+    color: blanchedalmond;
+    width: 100%;
+    height: 20%;
+    
+    
+}
+
+li {
+    display: inline-block;
+    margin: 4%;
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    
+    
+}
+ 
+
+.part1 {
+    padding: 1% ;
+    display: inline-block;
+    /* border: red 1px solid; */
+    
+  
+  }
+  .part2 {
+      width: 40%;
+    /* border: red 1px solid; */
+    /* display: inline-block; */
+    position: absolute;
+    right: .1%;
+    top: 2%;
+
+}
+
+.about {
+    width: 90%;
+    border: 1px solid gray;
+    box-shadow: 5px 6px 5px  gray;
+    margin: 2% auto;
+    
+    
+    
+}
+.part11 {
+    width: 45%;
+    border: red 1px solid;
+    /* float: left; */
+
+    position: absolute;
+    
+    
+    
+    
+
+}
+
+.part22 {
+    width: 40%;
+    border: green 1px solid;
+    padding: 2%;
+    /* float: right; */
+
+    position: absolute;
+    right: 5px;
+    
+    
+}
+
+.part11, .part22 {
+    display: inline-block;
+    margin: 1%;
+}
+
+.detail {
+    border: 1px solid red;
+    width: 55%;
+    display: inline-block;
+    
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  
+  .css {width: 80%; background-color: #2196F3;}
+   
